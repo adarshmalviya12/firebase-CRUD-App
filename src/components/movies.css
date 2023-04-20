@@ -1,0 +1,119 @@
+/* AddMovies section */
+.addMovies {
+ border: 1px solid #ccc;
+ width: 100%;
+ max-width: 600px;
+ margin: 0 auto;
+ padding: 10px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+/* Movie list section */
+.movie-list-container {
+ width: 90%;
+ max-width: 600px;
+ margin: 0 auto;
+}
+
+.movie-list-title {
+ font-size: 2rem;
+ text-align: center;
+ margin-bottom: 1rem;
+}
+
+.movie-list {
+ list-style: none;
+ padding: 0;
+ margin: 0;
+}
+
+.list-items {
+ margin-top: 10px;
+ margin-bottom: 1rem;
+ padding: 1rem;
+ border: 1px solid #ccc;
+ border-radius: 0.5rem;
+}
+
+.list-items h2 {
+ margin-top: 0;
+ margin-bottom: 0.5rem;
+}
+
+ .list-items p {
+ margin-top: 0;
+ margin-bottom: 0.25rem;
+ max-width: 500px;
+}
+
+
+
+.inputContainer {
+ display: flex;
+ align-items: center;
+ justify-content: flex-start;
+ width: 100%;
+ margin-bottom: 1rem;
+}
+
+.inputContainer input {
+ margin-left: 20px;
+}
+
+.inputContainer label {
+ width: 6.5rem;
+}
+
+.inputDesc {
+ display: flex;
+ justify-content: space-between;
+ margin-bottom: 1rem;
+}
+
+/* Media queries */
+@media screen and (max-width: 600px) {
+ .addMovies {
+  padding: 10px 5px;
+ }
+
+ .movie-list-container {
+  padding: 10px 5px;
+ }
+
+ .inputContainer {
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 0.5rem;
+ }
+
+ .inputContainer input {
+  margin-left: 0;
+  margin-top: 10px;
+  width: 80%;
+ }
+
+ .inputContainer label {
+  width: 100%;
+  margin-bottom: 5px;
+ }
+
+ .list-items{
+  padding: 0.5rem;
+ }
+
+.list-items h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.25rem;
+ }
+
+ .list-items div {
+  margin-bottom: 0;
+ }
+
+ .delete-btn {
+  font-size: 14px;
+  padding: 5px 10px;
+ }
+}
